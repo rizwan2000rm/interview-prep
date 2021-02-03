@@ -1,14 +1,13 @@
 ROADMAPS
 
-https://coggle.it/diagram/W5u8QkZs6r4sZM3J/t/master-the-interview
 https://coggle.it/diagram/W5E5tqYlrXvFJPsq/t/master-the-interview-click-here-for-course-link
 https://whimsical.com/4th-year-roadmap-to-dream-placement-WB2HTZixtsohXoDcvr6Me7
 
 
 ALGORITHMS AND DS
 
-https://www.youtube.com/user/mycodeschool / https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513
-https://www.amazon.com/gp/product/1849967202/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1849967202&linkCode=as2&tag=csdojo-20&linkId=1b631d0a8a8356471d7c8d604b6d94de
+https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230
+https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/ref=sr_1_1?crid=2ED9O6OSAMTZI&dchild=1&keywords=elements+of+programming+interviews+in+python&qid=1612317133&s=books&sprefix=elements+o%2Cstripbooks-intl-ship%2C341&sr=1-1
 
 
 PRACTICE Questions

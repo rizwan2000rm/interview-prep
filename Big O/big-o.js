@@ -5,10 +5,7 @@
 //? Rule 1
 //! O(a+b)
 
-const rule1 = () => {
-  doStep1(); // O(a)
-  doStep2(); // O(b)
-};
+
 
 //? Rule 2
 //! Drop the constants
