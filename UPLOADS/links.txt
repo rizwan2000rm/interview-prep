@@ -1,3 +1,13 @@
-https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/ref=sr_1_1?crid=2ED9O6OSAMTZI&dchild=1&keywords=elements+of+programming+interviews+in+python&qid=1612317133&s=books&sprefix=elements+o%2Cstripbooks-intl-ship%2C341&sr=1-1
+BOOK - https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/ref=sr_1_1?crid=2ED9O6OSAMTZI&dchild=1&keywords=elements+of+programming+interviews+in+python&qid=1612317133&s=books&sprefix=elements+o%2Cstripbooks-intl-ship%2C341&sr=1-1
 
-https://leetcode.com/explore/featured/card/top-interview-questions-easy/
+QUESTIONS - https://leetcode.com/explore/featured/card/top-interview-questions-easy/
+
+Last Minute Notes - https://www.geeksforgeeks.org/lmns-gq/
+
+system-design-primer - https://github.com/donnemartin/system-design-primer#database
+
+DBMS - https://whimsical.com/dbms-roadmap-by-love-babbar-FmUi8ffVop33t3MmpVxPCo
+
+OS - https://whimsical.com/operating-system-cheatsheet-by-love-babbar-S9tuWBCSQfzoBRF5EDNinQ
+
+Behaviour Interviews - https://theinterviewguys.com/amazon-interview-questions/
