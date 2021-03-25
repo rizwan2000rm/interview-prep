@@ -1,7 +1,7 @@
 # len
 print("============ len() ============")
 print()
-list=[1,2,3,4,5]
+list = [1, 2, 3, 4, 5]
 print(len(list))
 
 # del

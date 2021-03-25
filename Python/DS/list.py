@@ -43,15 +43,15 @@ print(list.count("Count Me"))
 print()
 
 print("====== .sort() ======\n")
-unsortedList = [1,63,-35,145,-230]
+unsortedList = [1, 63, -35, 145, -230]
 unsortedList.sort()
 print(unsortedList)
-unsortedList.sort(reverse=True) # list.reverse()
+unsortedList.sort(reverse=True)  # list.reverse()
 print(unsortedList)
 print()
 
 print("====== .copy() ======\n")
-print(list.copy()) # Equivalent to a[:]  
+print(list.copy())  # Equivalent to a[:]
 print()
 
 print("====== .index() ======\n")

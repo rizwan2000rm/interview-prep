@@ -1,71 +1,73 @@
 class User:
-  #! Polymorphism
-  def log(self):
-    print(self)
+    #! Polymorphism
+    def log(self):
+        print(self)
+
 
 class Teacher(User):
-  #! Polymorphism
-  def log(self):
-    print("I'm a Teacher")
+    #! Polymorphism
+    def log(self):
+        print("I'm a Teacher")
 
 # Inheritance
+
+
 class Customer(User):
-  # Constructor / Initialiazer
-  def __init__(self, name, membershipType):
-    self.name = name
-    self.membershipType = membershipType
-  
-  def __str__(self):
-    # customers[0] will return value instead of object location
-    return self.name + " " + self.membershipType
-  
-  def __eq__(self, other):
-    # if __eq__() not overrided object location are matched by default
-    if self.name == other.name and self.membershipType == other.membershipType:
-      return True
-    return False
+    # Constructor / Initialiazer
+    def __init__(self, name, membershipType):
+        self.name = name
+        self.membershipType = membershipType
 
-  # Non Hashable Object
-  __hash__ = None
+    def __str__(self):
+        # customers[0] will return value instead of object location
+        return self.name + " " + self.membershipType
 
-  # customers will return values instead of Object location
-  __repr__ = __str__
+    def __eq__(self, other):
+        # if __eq__() not overrided object location are matched by default
+        if self.name == other.name and self.membershipType == other.membershipType:
+            return True
+        return False
 
-  #! Polymorphism
-  def log(self):
-    print("I'm a Customer")
+    # Non Hashable Object
+    __hash__ = None
 
-  # Encapsulation
-  @property # getter method in many different langugages
-  def name(self):
-    return self._name
+    # customers will return values instead of Object location
+    __repr__ = __str__
 
-  @name.setter # setter method
-  def name(self, name):
-    self._name = name
+    #! Polymorphism
+    def log(self):
+        print("I'm a Customer")
 
-  @name.deleter
-  def name(self):
-    del self._name
-  
-  # Methods
-  def updateMembership(self, newMembership):
-    # API Call, Update DB, Charge Customers etc
-    self.membershipType = newMembership
+    # Encapsulation
+    @property  # getter method in many different langugages
+    def name(self):
+        return self._name
 
-  def readCustomer():
-    print("Read Customers from DB")
+    @name.setter  # setter method
+    def name(self, name):
+        self._name = name
 
-  def printAllCustomers(customers):
-    for customer in customers:
-      print(customer)
+    @name.deleter
+    def name(self):
+        del self._name
 
-  
+    # Methods
+    def updateMembership(self, newMembership):
+        # API Call, Update DB, Charge Customers etc
+        self.membershipType = newMembership
+
+    def readCustomer():
+        print("Read Customers from DB")
+
+    def printAllCustomers(customers):
+        for customer in customers:
+            print(customer)
+
 
 # ===================================================================================================================================
-
 print("----- OOP -----")
-customers = [Customer("Rizwan", "Premium"), Customer("Rehan", "Gold"), Customer("Rizwan", "Premium")]
+customers = [Customer("Rizwan", "Premium"), Customer(
+    "Rehan", "Gold"), Customer("Rizwan", "Premium")]
 print(customers[0].name)
 print()
 
@@ -95,6 +97,14 @@ print()
 print("----- POLYMORPHISM -----")
 users = [Customer("Rizwan", "Premium"), Customer("Rehan", "Gold"), Teacher()]
 
-for user in users: 
-  user.log()
+for user in users:
+    user.log()
+print()
+
+print("----- Data Abstraction -----")
+print("hiding the background details or implementation")
+print()
+
+print("----- Encapsulation -----")
+print("In Encapsulation, the variables or data of a class are hidden from any other class and can be accessed only through any member function of their class in which they are declared. As in encapsulation, the data in a class is hidden from other classes, so it is also known as data-hiding.")
 print()

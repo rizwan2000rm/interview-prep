@@ -5,8 +5,6 @@
 //? Rule 1
 //! O(a+b)
 
-
-
 //? Rule 2
 //! Drop the constants
 //! O(2n) => O(n)

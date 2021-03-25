@@ -16,7 +16,7 @@ print()
 # for y in [3,1,4]:
 # if x != y:
 # combs.append((x, y))
-combinations = [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
+combinations = [(x, y) for x in [1, 2, 3] for y in [3, 1, 4] if x != y]
 print(combinations)
 print()
 
@@ -28,9 +28,9 @@ print("============ Nested List Comprehensions ============")
 print()
 
 matrix = [
-[1, 2, 3, 4],
-[5, 6, 7, 8],
-[9, 10, 11, 12],
+    [1, 2, 3, 4],
+    [5, 6, 7, 8],
+    [9, 10, 11, 12],
 ]
 
 # The following list comprehension will transpose rows and columns:

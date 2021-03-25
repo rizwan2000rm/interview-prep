@@ -20,8 +20,8 @@ print()
 
 print("====== extend() & extendleft ======")
 print()
-queue.extend([4,5,6])
-queue.extendleft([4,5,6])
+queue.extend([4, 5, 6])
+queue.extendleft([4, 5, 6])
 print(queue)
 print()
 
