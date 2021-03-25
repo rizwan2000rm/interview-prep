@@ -1,3 +1,4 @@
+# https://www.youtube.com/watch?v=MikphENIrOo
 class User:
     #! Polymorphism
     def log(self):
@@ -10,6 +11,8 @@ class Teacher(User):
         print("I'm a Teacher")
 
 # Inheritance
+# Types of Inheritance - Single, Multiple(2 => 1),
+# Multilevel( 1 => 1 => 1), Hierarchical (1 to many), Hybrid
 
 
 class Customer(User):
