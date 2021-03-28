@@ -1,4 +1,5 @@
 # https://www.youtube.com/watch?v=MikphENIrOo
+
 class User:
     #! Polymorphism
     def log(self):
@@ -16,8 +17,12 @@ class Teacher(User):
 
 
 class Customer(User):
+    # Class / Static Variable
+    totalMembers = 0
+
     # Constructor / Initialiazer
     def __init__(self, name, membershipType):
+        # instance variables
         self.name = name
         self.membershipType = membershipType
 
@@ -65,6 +70,15 @@ class Customer(User):
     def printAllCustomers(customers):
         for customer in customers:
             print(customer)
+
+    # These are functions not necessarily called on Objects but on class itself
+    @classmethod
+    def totalMembers(cls):
+        return cls.totalMembers()
+
+    @classmethod
+    def addMemeber(cls):
+        cls.totalMembers += 1
 
 
 # ===================================================================================================================================
