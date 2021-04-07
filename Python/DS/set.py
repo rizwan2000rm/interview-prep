@@ -8,6 +8,8 @@ print(basket)  # show that duplicates have been removed
 
 print('orange' in basket)
 
+# basket.add()
+
 # set comprehensions are also supported
 a = {x for x in 'abracadabra' if x not in 'abc'}
 print(a)
