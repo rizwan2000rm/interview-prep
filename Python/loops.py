@@ -70,3 +70,8 @@ for i in range(1, 5):
     for j in range(i):
         print(i, end=' ')
     print()
+
+print("--- REVERSE FOR LOOP ---")
+for i in range(5, 0, -1):
+    print(i)
+print()
